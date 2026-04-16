@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unidad 1 · La empresa y su organización</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <p class="eyebrow">CFGS Administración y Finanzas</p>
+        <h1>Unidad 1</h1>
+        <p class="brand-sub">La empresa y su organización · El proceso de comunicación</p>
+        <div class="brand-note">
+          <strong>Itinerario en 8 fases</strong>
+          <span>El progreso se guarda automáticamente aunque cierres la página.</span>
+        </div>
+      </div>
+
+      <nav id="phaseNav" class="phase-nav"></nav>
+
+      <section class="side-card">
+        <h3>Progreso global</h3>
+        <div class="big-progress" id="globalProgress">0%</div>
+        <p class="small">Las prácticas se entregan en EVAGD. En esta web solo registras tu avance y accedes al test tras la verificación docente.</p>
+        <button id="resetAll" class="ghost">Reiniciar progreso</button>
+      </section>
+    </aside>
+
+    <main class="content">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Situación de aprendizaje</p>
+          <h2>Recorrido visual, práctico y evaluable</h2>
+          <p>Incluye teoría resumida, mapa conceptual gráfico con huecos interactivos, prácticas para EVAGD, un test por fase y certificado final.</p>
+        </div>
+        <div class="hero-actions">
+          <button class="primary" data-scroll="#fase-1">Empezar</button>
+          <button class="secondary" id="showCertificate">Certificado final</button>
+        </div>
+      </header>
+
+      <section class="summary-grid">
+        <article class="summary-card">
+          <h3>Qué hace el estudiante</h3>
+          <p>Estudia la fase, realiza la práctica en EVAGD, solicita la verificación docente y, después, completa el test correspondiente.</p>
+        </article>
+        <article class="summary-card">
+          <h3>Cómo avanza</h3>
+          <p>La siguiente fase se desbloquea cuando la fase actual ya tiene práctica registrada, verificación docente y test finalizado.</p>
+        </article>
+        <article class="summary-card">
+          <h3>Evaluación</h3>
+          <p>Cada test ofrece dos intentos. Tras el segundo, se muestran las respuestas correctas. Las preguntas se barajan y cambian entre intentos.</p>
+        </article>
+      </section>
+
+      <div id="phasesContainer"></div>
+
+      <section id="certificateSection" class="certificate hidden">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Cierre de la unidad</p>
+            <h3>Certificado final del itinerario</h3>
+          </div>
+          <div class="hero-actions">
+            <button class="secondary" id="refreshCertificate">Actualizar</button>
+            <button class="primary" id="printCertificate">Imprimir / Guardar PDF</button>
+          </div>
+        </div>
+        <div id="certificateSheet" class="certificate-sheet"></div>
+      </section>
+    </main>
+  </div>
+
+  <dialog id="verifyDialog">
+    <form method="dialog" class="dialog-card" id="verifyForm">
+      <h3>Verificación docente</h3>
+      <p>Introduce el código facilitado por el docente para desbloquear el test de esta fase. El código no se muestra en la web.</p>
+      <input type="password" id="teacherCodeInput" autocomplete="off" placeholder="Código de verificación">
+      <div class="dialog-actions">
+        <button value="cancel" class="ghost">Cancelar</button>
+        <button id="confirmVerify" value="default" class="primary">Verificar</button>
+      </div>
+      <p id="verifyMsg" class="verify-msg"></p>
+    </form>
+  </dialog>
+
+  <script src="app-data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
