@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Unidad 1 · La empresa y su organización · El proceso de comunicación</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand-card">
+        <p class="eyebrow">CFGS Administración y Finanzas</p>
+        <h1>Unidad 1</h1>
+        <p class="brand-subtitle">La empresa y su organización · El proceso de comunicación</p>
+        <div class="code-box">
+          <span>Código docente</span>
+          <strong id="teacherCode">041626</strong>
+        </div>
+      </div>
+
+      <nav class="phase-nav" id="phaseNav"></nav>
+
+      <section class="mini-panel">
+        <h3>Seguimiento</h3>
+        <div class="progress-ring-wrap">
+          <div class="progress-ring" id="globalProgressText">0%</div>
+        </div>
+        <p class="small">Tu progreso se guarda automáticamente aunque cierres la página.</p>
+        <button class="ghost-btn" id="resetProgressBtn">Reiniciar progreso</button>
+      </section>
+    </aside>
+
+    <main class="main-content">
+      <header class="hero">
+        <div>
+          <p class="eyebrow">Situación de aprendizaje digital</p>
+          <h2>Itinerario completo en 8 fases</h2>
+          <p class="hero-text">
+            Recorre los contenidos del tema mediante teoría visual, prácticas guiadas, mapa conceptual con huecos,
+            ejercicios de aplicación y test aleatorios con dos intentos.
+          </p>
+        </div>
+        <div class="hero-actions">
+          <button class="primary-btn" data-scroll="fase-1">Empezar ahora</button>
+          <button class="secondary-btn" id="certificateBtn">Generar certificado final</button>
+        </div>
+      </header>
+
+      <section class="info-grid">
+        <article class="info-card">
+          <h3>Resultado de aprendizaje</h3>
+          <p>
+            Reconocer la organización de las empresas, la función directiva, los sistemas de información y los procesos
+            de comunicación interna y externa, vinculándolos con la calidad del servicio y la imagen corporativa.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Qué incluye esta web</h3>
+          <p>
+            8 fases, actividades prácticas, autoevaluación, test variable, seguimiento persistente, histórico de entregas y
+            certificado final con resultados.
+          </p>
+        </article>
+        <article class="info-card">
+          <h3>Evaluación del estudiante</h3>
+          <p>
+            Cada fase incorpora evidencias de trabajo. El certificado final integra prácticas registradas y notas de los test.
+          </p>
+        </article>
+      </section>
+
+      <div id="phasesContainer"></div>
+
+      <section class="certificate-panel" id="certificatePanel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">Cierre del itinerario</p>
+            <h3>Certificado final</h3>
+          </div>
+          <div class="panel-actions">
+            <button class="secondary-btn" id="refreshCertificateBtn">Actualizar</button>
+            <button class="primary-btn" id="printCertificateBtn">Imprimir / Guardar PDF</button>
+          </div>
+        </div>
+        <div class="certificate-sheet" id="certificateSheet"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="phaseTemplate">
+    <section class="phase-section">
+      <div class="phase-header">
+        <div>
+          <p class="phase-kicker"></p>
+          <h3></h3>
+        </div>
+        <label class="check-chip">
+          <input type="checkbox" class="phase-complete-checkbox" />
+          <span>Fase completada</span>
+        </label>
+      </div>
+      <div class="phase-body"></div>
+    </section>
+  </template>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
