@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 840" width="1200" height="840">
+<style>
+.t{font: 600 22px Arial, sans-serif; fill:#17324d}
+.s{font: 600 16px Arial, sans-serif; fill:#1d3b54}
+.n{font: 700 14px Arial, sans-serif; fill:#4f46e5}
+.box{fill:#ffffff; stroke:#94a3b8; stroke-width:1.5; rx:10}
+.sec1{fill:#dbeafe; stroke:#60a5fa; stroke-width:2; rx:12}
+.sec2{fill:#dcfce7; stroke:#4ade80; stroke-width:2; rx:12}
+.sec3{fill:#f3e8ff; stroke:#c084fc; stroke-width:2; rx:12}
+.line{stroke:#475569; stroke-width:2; fill:none}
+.label{font: 700 17px Arial, sans-serif;}
+</style>
+<rect x="330" y="18" width="540" height="68" rx="14" fill="#163d6d"/>
+<text x="600" y="48" text-anchor="middle" fill="white" class="t">LA EMPRESA Y SU ORGANIZACIÓN</text>
+<text x="600" y="73" text-anchor="middle" fill="white" class="t">EL PROCESO DE COMUNICACIÓN</text>
+
+<path class="line" d="M600 86 V110 M190 110 H1010"/>
+<path class="line" d="M190 110 V140 M600 110 V140 M1010 110 V140"/>
+
+<rect class="sec1" x="38" y="140" width="280" height="250"/>
+<text x="178" y="170" text-anchor="middle" class="label" fill="#1d4ed8">Elementos y funciones</text>
+<text x="60" y="205" class="s">Factor humano</text>
+<rect class="box" x="60" y="214" width="210" height="32"/>
+<text x="66" y="235" class="n">1</text>
+<text x="60" y="280" class="s">Entorno</text>
+<rect class="box" x="60" y="289" width="210" height="32"/>
+<text x="66" y="310" class="n">2</text>
+<text x="60" y="355" class="s">Capital</text>
+<rect class="box" x="60" y="364" width="210" height="32"/>
+<text x="66" y="385" class="n">3</text>
+
+<rect class="sec1" x="38" y="410" width="280" height="250"/>
+<text x="178" y="440" text-anchor="middle" class="label" fill="#1d4ed8">Organización y dirección</text>
+<text x="60" y="480" class="s">Organización</text>
+<rect class="box" x="60" y="489" width="210" height="32"/>
+<text x="66" y="510" class="n">4</text>
+<text x="60" y="550" class="s">Dirección de empresa</text>
+<rect class="box" x="60" y="559" width="210" height="32"/><text x="66" y="580" class="n">5</text>
+<rect class="box" x="60" y="599" width="210" height="32"/><text x="66" y="620" class="n">6</text>
+<rect class="box" x="60" y="639" width="210" height="32"/><text x="66" y="660" class="n">7</text>
+<rect class="box" x="60" y="679" width="210" height="32"/><text x="66" y="700" class="n">8</text>
+
+<rect class="sec2" x="360" y="140" width="470" height="560"/>
+<text x="595" y="170" text-anchor="middle" class="label" fill="#15803d">Clasificación de la empresa según:</text>
+<text x="385" y="208" class="s">Propiedad</text>
+<rect class="box" x="385" y="218" width="170" height="32"/><text x="392" y="239" class="n">9</text>
+<rect class="box" x="385" y="258" width="170" height="32"/><text x="392" y="279" class="n">10</text>
+
+<text x="385" y="330" class="s">Tamaño</text>
+<rect class="box" x="385" y="340" width="170" height="32"/><text x="392" y="361" class="n">11</text>
+<rect class="box" x="385" y="380" width="170" height="32"/><text x="392" y="401" class="n">12</text>
+<rect class="box" x="385" y="420" width="170" height="32"/><text x="392" y="441" class="n">13</text>
+<rect class="box" x="385" y="460" width="170" height="32"/><text x="392" y="481" class="n">14</text>
+
+<text x="385" y="532" class="s">Sector</text>
+<rect class="box" x="385" y="542" width="170" height="32"/><text x="392" y="563" class="n">15</text>
+<rect class="box" x="385" y="582" width="170" height="32"/><text x="392" y="603" class="n">16</text>
+<rect class="box" x="385" y="622" width="170" height="32"/><text x="392" y="643" class="n">17</text>
+
+<text x="610" y="208" class="s">Ámbito geográfico</text>
+<rect class="box" x="610" y="218" width="180" height="32"/><text x="617" y="239" class="n">18</text>
+<rect class="box" x="610" y="258" width="180" height="32"/><text x="617" y="279" class="n">19</text>
+<rect class="box" x="610" y="298" width="180" height="32"/><text x="617" y="319" class="n">20</text>
+<rect class="box" x="610" y="338" width="180" height="32"/><text x="617" y="359" class="n">21</text>
+
+<text x="610" y="420" class="s">Naturaleza jurídica</text>
+<rect class="box" x="610" y="430" width="180" height="32"/><text x="617" y="451" class="n">22</text>
+<rect class="box" x="610" y="470" width="180" height="32"/><text x="617" y="491" class="n">23</text>
+
+<rect class="sec3" x="860" y="140" width="300" height="355"/>
+<text x="1010" y="170" text-anchor="middle" class="label" fill="#7c3aed">Organización empresarial</text>
+<text x="886" y="210" class="s">Principios</text>
+<rect class="box" x="886" y="220" width="220" height="32"/><text x="893" y="241" class="n">24</text>
+<rect class="box" x="886" y="260" width="220" height="32"/><text x="893" y="281" class="n">25</text>
+<rect class="box" x="886" y="300" width="220" height="32"/><text x="893" y="321" class="n">26</text>
+<rect class="box" x="886" y="340" width="220" height="32"/><text x="893" y="361" class="n">27</text>
+<rect class="box" x="886" y="380" width="220" height="32"/><text x="893" y="401" class="n">28</text>
+<text x="886" y="445" class="s">Tipos de organización</text>
+<rect class="box" x="886" y="454" width="220" height="32"/><text x="893" y="475" class="n">29</text>
+<rect class="box" x="886" y="494" width="220" height="32"/><text x="893" y="515" class="n">30</text>
+
+<rect class="sec3" x="860" y="520" width="300" height="270"/>
+<text x="1010" y="548" text-anchor="middle" class="label" fill="#7c3aed">Desarrollo de funciones</text>
+<text x="886" y="585" class="s">Áreas</text>
+<rect class="box" x="886" y="595" width="220" height="28"/><text x="893" y="614" class="n">31</text>
+<rect class="box" x="886" y="629" width="220" height="28"/><text x="893" y="648" class="n">32</text>
+<rect class="box" x="886" y="663" width="220" height="28"/><text x="893" y="682" class="n">33</text>
+<rect class="box" x="886" y="697" width="220" height="28"/><text x="893" y="716" class="n">34</text>
+<rect class="box" x="886" y="731" width="220" height="28"/><text x="893" y="750" class="n">35</text>
+<rect class="box" x="886" y="765" width="220" height="28"/><text x="893" y="784" class="n">36</text>
+
+<rect class="sec2" x="360" y="720" width="470" height="90"/>
+<text x="595" y="748" text-anchor="middle" class="label" fill="#15803d">Departamentalización y estructura</text>
+<rect class="box" x="380" y="765" width="170" height="28"/><text x="387" y="784" class="n">37</text>
+<rect class="box" x="560" y="765" width="170" height="28"/><text x="567" y="784" class="n">38</text>
+<rect class="box" x="740" y="765" width="170" height="28"/><text x="747" y="784" class="n">39</text>
+<rect class="box" x="920" y="765" width="170" height="28"/><text x="927" y="784" class="n">40</text>
+
+<rect class="sec1" x="38" y="690" width="280" height="120"/>
+<text x="178" y="720" text-anchor="middle" class="label" fill="#1d4ed8">Estructura empresarial</text>
+<rect class="box" x="60" y="745" width="210" height="28"/><text x="66" y="764" class="n">41</text>
+<rect class="box" x="60" y="779" width="210" height="28"/><text x="66" y="798" class="n">42</text>
+<rect class="box" x="60" y="813" width="210" height="20"/><text x="66" y="827" class="n">43</text>
+</svg>
